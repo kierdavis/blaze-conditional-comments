@@ -9,6 +9,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Kier Davis
 maintainer:          kierdavis@gmail.com
+bug-reports:         https://github.com/kierdavis/blaze-conditional-comments/issues
 -- copyright:           
 category:            Text
 build-type:          Simple
@@ -28,3 +29,13 @@ library
   exposed-modules:     Text.Blaze.Html.ConditionalComments
   -- other-modules:       
   build-depends:       base ==4.6.*, blaze-html ==0.6.*, blaze-markup ==0.5.*
+
+source-repository head
+  type:     git
+  location: git://github.com/kierdavis/blaze-conditional-comments.git
+
+source-repository this
+  type:     git
+  location: git://github.com/kierdavis/blaze-conditional-comments.git
+  tag:      0.1.0.0
+
